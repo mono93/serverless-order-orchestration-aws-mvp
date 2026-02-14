@@ -1,0 +1,35 @@
+{
+  "name": "serverless-order-orchestration-aws-mvp",
+  "version": "1.0.0",
+  "description": "Production grade serverless Order Processing & Payment Orchestration on AWS Environment with Stripe integration, Terraform IaC, and GitHub Actions CI/CD",
+  "keywords": [
+    "AWS",
+    "serverless",
+    "stripe"
+  ],
+  "homepage": "https://github.com/mono93/serverless-order-orchestration-aws-mvp#readme",
+  "bugs": {
+    "url": "https://github.com/mono93/serverless-order-orchestration-aws-mvp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mono93/serverless-order-orchestration-aws-mvp.git"
+  },
+  "license": "MIT",
+  "author": "Monojit Saha",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env dev-server/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.18.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
